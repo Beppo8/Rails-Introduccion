@@ -1,0 +1,8 @@
+<h1><%=@article.title%></h1>
+<div>
+    <%= @article.content %>
+</div>
+
+<div class="">
+    <%=link_to "Eliminar el articulo" @article, method: :delete %>
+</div>
